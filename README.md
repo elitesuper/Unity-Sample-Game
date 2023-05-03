@@ -68,8 +68,6 @@ The Unity Editor is required. Download it from <a href="https://unity3d.com/get-
 
 1. Open the Unity Project of `./PiratePanic/` in Unity Version **2020.3.7f1** or higher.
 2. Open the Unity Console Window (Unity → Windows → General → Console). Confirm there are no warnings or errors.
-3. By default, the game will attempt to communicate with port 7350 of localhost, which is the default Nakama HTTP port. If you'd like to change your host or IP, you can do so when constructing the client: https://github.com/heroiclabs/unity-sampleproject/blob/master/PiratePanic/Assets/PiratePanic/Scripts/Scene01MainMenuController.cs#L101
-
 ### 3. Play Against Yourself
 
 **Standalone Build Play Session**
@@ -93,10 +91,5 @@ GitHub issues and pull requests are welcome. If you're interested in enhancing t
 
 To modify the Typescript remote procedure calls (RPCs), install Node Package Manager (NPM), run `npm install` and `npx tsc` from the `ServerModules` folder, and restart the server.
 
-More documentation on working with the Nakama Typescript runtime can be found here: https://heroiclabs.com/docs/runtime-code-typescript-setup/
-
-### License
-
-This project source code and documentation is licensed under the [Apache-2 License](https://github.com/heroiclabs/unity-sampleproject/blob/master/LICENSE). All images, graphics, and other non-code resources are licensed under [CC BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/4.0/). Please reach out on a GitHub issue if you have any questions.
 
 All 3rd-party assets and libraries used in this project retain all rights under their respective licenses.
